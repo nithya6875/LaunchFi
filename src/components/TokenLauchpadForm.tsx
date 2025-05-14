@@ -246,7 +246,7 @@ const TokenLaunchpadForm = () => {
                   <FormField
                     control={form.control}
                     name="ImageUrl"
-                    render={({ field }) => (
+                    render={({ }) => (
                       <FormItem>
                         <FormLabel className="font-medium">Upload Image</FormLabel>
                         <FormControl>
